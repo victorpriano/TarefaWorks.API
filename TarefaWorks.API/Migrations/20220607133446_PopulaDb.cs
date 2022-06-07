@@ -10,6 +10,10 @@ namespace TarefaWorks.API.Migrations
         {
             migrationBuilder.Sql("INSERT INTO Cards(Projeto, Objetivo, Descricao, TempoPrevisto, TempoSaldo, Equipe, Status) " +
                 "VALUES('TarefaWorks', 'Criar Migração', 'Criar', 3, 0, 'Dev', 'Aguardando')");
+            migrationBuilder.Sql("INSERT INTO Cards(Projeto, Objetivo, Descricao, TempoPrevisto, TempoSaldo, Equipe, Status) " +
+                "VALUES('TarefaWorks', 'Criar API', 'Criar', 3, 0, 'Dev', 'Aguardando')");
+            migrationBuilder.Sql("INSERT INTO Cards(Projeto, Objetivo, Descricao, TempoPrevisto, TempoSaldo, Equipe, Status) " +
+                "VALUES('TarefaWorks', 'Criar Banco de Dados', 'Criar Banco de Dados', 3, 0, 'Dev', 'Aguardando')");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
