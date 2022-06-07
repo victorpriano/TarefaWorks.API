@@ -17,7 +17,7 @@
 
 ##### - Com a connectionString modificada, execute as migrações para criar as tabelas no banco e inserir os dados necessários.
 ##### - Abra o terminal de comando e digite Add-Migration InitialCreate caso utilize o Visual Studio ou digite dotnet ef migrations add InitialCreate caso utilize o VS Code.
-##### - Em seguida digite Update-Database para o Visual Studio ou Update-Database para o VS Code. 
+##### - Em seguida digite Update-Database para o Visual Studio ou Update-Database no VS Code para efetivar as modificações no banco. 
 
 
 
